@@ -6,20 +6,21 @@ gfa-goldpanning is drag-and-drop resource for the QBCore Framework with compatib
 
 # Dependencies
 
-*[qb-core](https://github.com/qbcore-framework/qb-core)
-*[PolyZone](https://github.com/mkafrin/PolyZone)
-*[qb-inventory](https://github.com/qbcore-framework/qb-inventory) or
-*[lj-inventory](https://github.com/loljoshie/lj-inventory) or
-*[ox_inventory](https://github.com/overextended/ox_inventory)
+[qb-core](https://github.com/qbcore-framework/qb-core)<br>
+[PolyZone](https://github.com/mkafrin/PolyZone)<br>
+[qb-inventory](https://github.com/qbcore-framework/qb-inventory) or<br>
+[lj-inventory](https://github.com/loljoshie/lj-inventory) or<br>
+[ox_inventory](https://github.com/overextended/ox_inventory)<br>
 
-**You can find the images below
+* You can find the images below<br><br>
+
 [gfa-items](https://github.com/Griefa/gfa-items/tree/main/activities/goldpanning)
 
 # Preview
 
-*[Gathering/Washing](https://streamable.com/pu7icv)
-*[Smelting](https://streamable.com/zuygar)
-*[Pawnshop](https://streamable.com/t8x655) **Optional**
+[Gathering/Washing](https://streamable.com/pu7icv)<br>
+[Smelting](https://streamable.com/zuygar)
+[Pawnshop](https://streamable.com/t8x655) **Optional**
 
 # Instructions (qb/lj)
 
