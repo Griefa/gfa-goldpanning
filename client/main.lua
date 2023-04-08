@@ -228,7 +228,6 @@ RegisterNetEvent('qb-goldpan:client:DestroyZones', function() -- Destroy all zon
 end)
 
 RegisterNetEvent('qb-goldpan:client:startgravel', function(itemName)
-	print(itemName)-- Start mining (itemName coming through)
 	local item = itemName
 	if not itemName then return end -- if the item doesn't match the name coming through or doesn't exist, cancel event.
 	local Ped = PlayerPedId()
