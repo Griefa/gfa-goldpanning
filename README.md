@@ -19,7 +19,7 @@ gfa-goldpanning is drag-and-drop resource for the QBCore Framework with compatib
 # Preview
 
 [Gathering/Washing](https://streamable.com/pu7icv)<br>
-[Smelting](https://streamable.com/zuygar)
+[Smelting](https://streamable.com/zuygar)<br>
 [Pawnshop](https://streamable.com/t8x655) **Optional**
 
 # Instructions (qb/lj)
@@ -62,17 +62,17 @@ gfa-goldpanning is drag-and-drop resource for the QBCore Framework with compatib
 	["bucket"]				= {["name"] = "bucket",       		    		["label"] = "Bucket",	 		["weight"] = 1000, 		["type"] = "item", 		["image"] = "Bucket.png", 				["unique"] = true, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
 	["mold"]				= {["name"] = "mold",       		            ["label"] = "Mold",	 		    ["weight"] = 1000, 		["type"] = "item", 		["image"] = "Mold.png", 		["unique"] = true, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
     ["gravel"]				= {["name"] = "gravel",       		    		["label"] = "Gravel",	 		["weight"] = 1000, 		["type"] = "item", 		["image"] = "Gravel.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
-	["rawgold"]				= {["name"] = "rawgold",       		    		["label"] = "Raw Gold",	 		["weight"] = 5000, 		["type"] = "item", 		["image"] = "Rawgold.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
-```
+	["rawgold"]				= {["name"] = "rawgold",       		    		["label"] = "Raw Gold",	 		["weight"] = 5000, 		["type"] = "item", 		["image"] = "Rawgold.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},```
+
 
 # Instructions (Ox)
 
 ** Add the following to ox_inventory/data/shops.lua Note: If you do not want the metadata, simply remove it.
 
 ```
-{ name = 'bucket', price = 1, metadata = { durability = 100 }},
-{ name = 'mold', price = 1, metadata = { durability = 100 }},
-{ name = 'sifter', price = 1, metadata = { durability = 100 }},
+    { name = 'bucket', price = 1, metadata = { durability = 100 }},
+    { name = 'mold', price = 1, metadata = { durability = 100 }},
+    { name = 'sifter', price = 1, metadata = { durability = 100 }},
 
 ```
 
@@ -117,8 +117,7 @@ gfa-goldpanning is drag-and-drop resource for the QBCore Framework with compatib
 		stack = true,
 		close = false,
 		description = "",
-	},
-```
+	},```
 
 # Support
 
