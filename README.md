@@ -117,7 +117,8 @@ gfa-goldpanning is drag-and-drop resource for the QBCore Framework with compatib
 		stack = true,
 		close = false,
 		description = "",
-	},```
+	},
+```
 
 # Support
 
